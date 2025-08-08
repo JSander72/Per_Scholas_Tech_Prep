@@ -1,9 +1,31 @@
-#div {
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 16px;
-    color: #333;
-    margin: 20px;
-    padding: 20px;
-    background-color: #f9f9f9;
+.container {
+    border-radius: 12px;
+    border: 1px solid  #716a0bc3;
+    padding: 16px;
+    margin-bottom: 16px;
 }
-    
+
+.container h1 {
+    color: black;
+    font-size: 24px;
+    text-align: center;
+    transform-box: fill-box;
+}
+.container h2 {
+    border-radius: 8px;
+    background: #716a0bc3;
+    padding: 8px;
+}
+
+/* Example: style for elements with class */
+.container #ingredients {
+    border-radius: 8px;
+    padding: 8px;
+}
+
+.container #image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
